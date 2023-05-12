@@ -38,6 +38,11 @@ h2 {
     align-items: center;
 }
 
+.pattern h2 {
+    margin-bottom: 4%;
+    font-family: var(--Family);
+}
+
 form {
     display: inline-flex;
 }
@@ -63,7 +68,12 @@ form button:hover {
     transition: all 200ms ease-in;
 }
 
-
+.show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
 
 .display {
     position: absolute;
@@ -74,10 +84,8 @@ form button:hover {
     align-items: center;
     background-color: #f5f5f5;
     justify-items: center;
-    padding: 2% 3%;
+    padding: 2% 5%;
     border-radius: 15px;
-    left: 10%;
-    bottom: 37%;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
     z-index: 999;
 
@@ -97,8 +105,61 @@ form button:hover {
     flex-wrap: wrap;
 }
 
+#isp {
+    width: 50px;
+}
+
 .map {
     background-color: red;
     width: 100%;
     height: 50vh;
+}
+
+@media(max-width:768px) {
+    form input {
+        padding: 2% 5%;
+        width: 70vw;
+        border: none;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+    }
+
+    form button {
+        background-color: var(--VeryDarkGray);
+        padding: 7%;
+        border: none;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+
+    .display {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        padding-inline: 15%;
+        text-align: center;
+        /* margin-top: 10%; */
+    }
+
+    #isp {
+        width: 100%;
+    }
+
+    /* .display {
+            position: absolute;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            background-color: #f5f5f5;
+            justify-items: center;
+            padding: 2% 5%;
+            border-radius: 15px;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+            z-index: 999;
+    
+        } */
 }

@@ -37,6 +37,7 @@ form.addEventListener('submit', (e) => {
 })
 
 async function displayIp(ipAddress) {
+
     try {
         const res = await fetch(`https://geo.ipify.org/api/v2/country,city?apiKey=${api_key}&ipAddress=${ipAddress}`, {
             method: 'GET',
