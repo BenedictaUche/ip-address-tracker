@@ -52,6 +52,6 @@ I learned how to use the Fetch API to retrieve data from Apify, perform DOM mani
 
 ## Author
 
-- Website - [Add your name here](https://benedicta-onyebuchi.vercel.app)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/BenedictaCodes)
-- Twitter - [@yourusername](https://www.twitter.com/Benny_dicta1)
+- Website - [Portfolio](https://benedicta-onyebuchi.vercel.app)
+- Frontend Mentor - [@BenedictaCodes](https://www.frontendmentor.io/profile/BenedictaCodes)
+- Twitter - [@Benny_dicta1](https://www.twitter.com/Benny_dicta1)
